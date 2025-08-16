@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Posts Table</title>
+</head>
+<body>
+    <center>
+  <table border="1" id="postsTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Posts</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+ 
+  <br>
+ 
+  <input type="number" id="postId" placeholder="Enter ID">
+  <input type="text" id="postInput" placeholder="Enter Post">
+  <button onclick="addPost()">Add New Post</button>
+ 
+  <script src="script.js"></script>
+</center>
+</body>
+
+</html>
