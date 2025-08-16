@@ -85,7 +85,7 @@ var posts = [
     tableBody.appendChild(row);
   }
   
-  // Function for Add button
+  // Function for Add b
   function addPost() {
     const inputId = document.getElementById("postId");
     const inputPost = document.getElementById("postInput");
